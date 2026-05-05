@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TMSA Science Olympiad</title>
+    <title>Triangle Math and Science Academy Science Olympiad</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,78 +11,142 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
   </head>
   <body>
     <header class="hero" id="home">
       <nav class="nav">
-        <a class="brand" href="#home">TMSA SciOly</a>
+        <a class="brand" href="#home">Triangle Math and Science Academy Science Olympiad</a>
+        <button class="menu-btn" aria-label="Toggle menu">☰</button>
         <div class="links">
-          <a href="#about">About</a>
-          <a href="#events">Events</a>
+          <a href="#announcements">Announcements</a>
           <a href="#team">Team</a>
+          <a href="#events">Events</a>
+          <a href="#results">Results</a>
+          <a href="#officers">Officers</a>
+          <a href="#schedule">Schedule</a>
           <a href="#resources">Resources</a>
+          <a href="#potd">Problem of the Day</a>
+          <a href="#questions">Questions</a>
+          <a href="#join">Join</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
 
       <div class="hero-content">
         <p class="eyebrow">Science Olympiad</p>
-        <h1>TMSA Science Olympiad</h1>
-        <p class="subtitle">Build • Test • Compete</p>
+        <h1>Triangle Math and Science Academy Science Olympiad</h1>
+        <p class="subtitle">Build • Analyze • Compete</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#events">View Events</a>
-          <a class="btn btn-secondary" href="#join">Join Team</a>
+          <a class="btn btn-primary" href="#announcements">Latest Updates</a>
+          <a class="btn btn-secondary" href="#join">Join the Team</a>
         </div>
       </div>
     </header>
 
     <main>
-      <section class="section" id="about">
-        <h2>About</h2>
-        <div class="grid three">
-          <article class="card"><h3>Mission</h3></article>
-          <article class="card"><h3>Practice</h3></article>
-          <article class="card"><h3>Competition</h3></article>
+      <section class="section" id="announcements">
+        <h2>Announcements</h2>
+        <div class="stack">
+          <article class="card left"><h3>Week 1 Update</h3></article>
+          <article class="card left"><h3>Tryout Window</h3></article>
+          <article class="card left"><h3>Invitational Signup</h3></article>
         </div>
       </section>
 
-      <section class="section alt" id="events">
-        <h2>Events</h2>
-        <div class="grid four">
-          <article class="card"><h3>Life Science</h3></article>
-          <article class="card"><h3>Earth Science</h3></article>
-          <article class="card"><h3>Chemistry</h3></article>
-          <article class="card"><h3>Engineering</h3></article>
-        </div>
-      </section>
-
-      <section class="section" id="team">
+      <section class="section alt" id="team">
         <h2>Team</h2>
         <div class="grid three">
-          <article class="card"><h3>Captains</h3></article>
-          <article class="card"><h3>Officers</h3></article>
-          <article class="card"><h3>Members</h3></article>
+          <article class="card"><h3>Varsity</h3></article>
+          <article class="card"><h3>JV</h3></article>
+          <article class="card"><h3>Alumni</h3></article>
         </div>
       </section>
 
-      <section class="section alt" id="resources">
+      <section class="section" id="events">
+        <h2>Events</h2>
+        <div class="grid four">
+          <article class="card"><h3>Life, Personal, Social Science</h3></article>
+          <article class="card"><h3>Earth and Space Science</h3></article>
+          <article class="card"><h3>Chemistry</h3></article>
+          <article class="card"><h3>Technology and Engineering</h3></article>
+        </div>
+      </section>
+
+      <section class="section alt" id="results">
+        <h2>Results</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Tournament</th><th>Date</th><th>Placement</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Regional</td><td>--/--/----</td><td>--</td></tr>
+              <tr><td>State</td><td>--/--/----</td><td>--</td></tr>
+              <tr><td>Invitational</td><td>--/--/----</td><td>--</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section" id="officers">
+        <h2>Officers</h2>
+        <div class="grid three">
+          <article class="card"><h3>Captain</h3></article>
+          <article class="card"><h3>Co-Captain</h3></article>
+          <article class="card"><h3>Event Leads</h3></article>
+        </div>
+      </section>
+
+      <section class="section alt" id="schedule">
+        <h2>Schedule</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Day</th><th>Time</th><th>Focus</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Monday</td><td>4:00 PM</td><td>Build Events</td></tr>
+              <tr><td>Wednesday</td><td>4:00 PM</td><td>Study Events</td></tr>
+              <tr><td>Friday</td><td>4:00 PM</td><td>Mock Competition</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section" id="resources">
         <h2>Resources</h2>
         <div class="grid three">
-          <article class="card"><h3>Rulebook</h3></article>
-          <article class="card"><h3>Study Guides</h3></article>
-          <article class="card"><h3>Build Docs</h3></article>
+          <a class="card link-card" href="#">Rule Manual</a>
+          <a class="card link-card" href="#">Event Notes</a>
+          <a class="card link-card" href="#">Build Logs</a>
         </div>
+      </section>
+
+      <section class="section alt" id="potd">
+        <h2>Problem of the Day</h2>
+        <article class="card left">
+          <h3>Today's Event Focus: Experimental Design</h3>
+          <p>How would you reduce measurement error in a timed-rate reaction test while keeping procedure time under 15 minutes?</p>
+        </article>
+      </section>
+
+      <section class="section" id="questions">
+        <h2>Questions</h2>
+        <p class="subtext">Use this discussion area like a help desk for team questions and leadership responses.</p>
+        <div id="giscus_thread"></div>
       </section>
 
       <section class="section join" id="join">
         <h2>Join</h2>
-        <a class="btn btn-primary" href="#contact">Get Started</a>
+        <a class="btn btn-primary" href="#contact">Interest Form</a>
       </section>
     </main>
 
     <footer class="footer" id="contact">
       <h2>Contact</h2>
-      <p>tmsascioly@school.org</p>
+      <p>triangle.scioly@school.org</p>
+      <p class="small">GitHub Pages target link: https://psista-creator.github.io/tmsa-scioly-website/</p>
     </footer>
   </body>
 </html>
